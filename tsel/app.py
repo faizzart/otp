@@ -28,7 +28,7 @@ GR = '\x1b[37m'
 
 
 
-def slowprints(s):
+def prints(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
@@ -41,14 +41,8 @@ def lodprint(s):
 
 bintang=(gt+"""
 =======================================
- TEMBAK PAKET BY BINTANG NUR PRADANA
- MASIH DALAM TAHAP UJICOBA
- BILA INGIN DI UPDATE TIAP HARI
- FOLLOW ACCOUNT SOSMED SAYA DI BAWAH INI
+ TEMBAK PAKET  pansos lu
  
- IG: @bintang_nur_pradana
- Fb: Bintang Nur Pradana
- Yt: Bintang Nur Pradana
  =======================================
 """)
 l="Harap tunggu.."
