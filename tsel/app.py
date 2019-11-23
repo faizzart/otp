@@ -28,7 +28,7 @@ GR = '\x1b[37m'
 
 
 
-def prints(s):
+def print(s):
     for c in s + '\n':
         sys.stdout.write(c)
         sys.stdout.flush()
@@ -49,7 +49,7 @@ l="Harap tunggu.."
 
 def main_menu():
     clear()
-    slowprints(bintang)
+    print(bintang)
     print(p+"Telkomsel Menu" +
         "\nPilih Salah Satu:"
         "\n  [1] Minta kode otp" + 
