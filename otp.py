@@ -73,14 +73,14 @@ def main_menu():
       
     
     
-       choice = str(input(C+" Masukan Pilihan👉 "))
+       choice = str(input(C+" Masukan Pilihan👉 ")2)
        exec_menu(choice)
        return
        print(W + '# ' + str(time.strftime('%a, %d %B %Y')))
 
 def exec_menu(choice):
     clear()
-    if(choice == '2'):
+    if(choice == ''):
         menu_actions['main']()
     else:
         try:
@@ -91,8 +91,8 @@ def exec_menu(choice):
     return
 
 def menu_1():
-   slowprint("loading")
-   os.system('cd xlotp;python app.py')
+   slowprint("ooo tidak bisa")
+   
 
 def menu_2():
     print("loading")
