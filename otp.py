@@ -73,7 +73,7 @@ def main_menu():
       
     
     
-       choice = str(input(C+" Masukan Pilihan👉 ")2)
+       choice = str(input(C+" Masukan Pilihan👉 "))
        exec_menu(choice)
        return
        print(W + '# ' + str(time.strftime('%a, %d %B %Y')))
