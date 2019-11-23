@@ -66,8 +66,8 @@ def main_menu():
        
        
        slowprint (gt+"Menu Pilihan:")
-       print (gt+"  ["+p+"1"+gt+"] "+p+"Tembak XL dan Axis Work")
-       print (gt+"  ["+p+"2"+gt+"] "+p+"Telkomsel")
+       print (gt+"  ["+p+"1"+gt+"] "+p+" xxxxxxxxxxxx ")
+       print (gt+"  ["+p+"2"+gt+"] "+p+" Minta OTP Telkomsel")
        print (gt+"  ["+p+"3"+gt+"] "+p+"Waktu")
        print (gt+"  ["+p+"0"+gt+"] "+p+"Keluar")
       
@@ -80,7 +80,7 @@ def main_menu():
 
 def exec_menu(choice):
     clear()
-    if(choice == ''):
+    if(choice == '2'):
         menu_actions['main']()
     else:
         try:
